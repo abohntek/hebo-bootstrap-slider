@@ -1,0 +1,33 @@
+/**
+ * CSS for frontend & backend.
+ */
+
+// Load Custom Variables and for Bootstrap, FA Overrides
+@import "../common";
+
+// Load Bootstrap from node_modules
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.wp-block-hebo-bootstrap-slider.slider{
+	width: auto;
+	margin: 30px 30px 50px;
+
+	.logo-item {
+		padding:15px 30px;
+	}
+
+
+	img {
+		height:80px;
+		width: auto;
+
+	}
+	.slick-slide {
+			padding: 40px 0;
+	}
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}

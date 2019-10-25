@@ -1,0 +1,42 @@
+/**
+ * CSS only for backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-hebo-bootstrap-slider {
+	display: flex;
+	flex-wrap: wrap;
+
+	button {
+		margin-top: 10px;
+	}
+
+	.hebo__bootstrap-slider-add-slide {
+		margin: 10px;
+		font-size: 70px;
+
+		&:before {
+			cursor: pointer;
+		}
+	}
+
+	.hebo__bootstrap-slider-block {
+		margin: 20px;
+		width: 100px;
+		min-height: 70px;
+	}
+
+	.hebo__bootstrap-slider-slide {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hebo__bootstrap-slider-bootstrap {
+		max-width: 100%;
+	}
+
+	.hebo__bootstrap-slider-rm-bootstrap {
+		cursor: pointer;
+		margin-left: 90px;
+	}
+}
